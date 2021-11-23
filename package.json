@@ -1,0 +1,44 @@
+{
+  "name": "virtual-table-ant-design",
+  "version": "1.0.7",
+  "description": "The virtual table based on `ant-design@4.x` is simple and easy to use, without changing the original table component",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "antd": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/lodash-es": "^4.17.3",
+    "@types/react": "^16.9.44",
+    "lodash-es": "^4.17.15",
+    "prettier": "^2.0.5",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "ts-loader": "^8.0.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uykalkan/ant-virtual-table.git"
+  },
+  "keywords": [
+    "ant-design",
+    "antd-table",
+    "virtual-table"
+  ],
+  "author": "Conda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uykalkan/ant-virtual-table/issues"
+  },
+  "homepage": "https://github.com/uykalkan/ant-virtual-table#readme"
+}
